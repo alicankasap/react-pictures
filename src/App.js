@@ -2,6 +2,7 @@ import { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import ImageList from "./components/ImageList";
 import searchImages from "./api";
+import ImageShow from "./components/ImageShow";
 
 function App() {
     const [images, setImages] = useState([]);
